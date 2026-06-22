@@ -9,12 +9,12 @@ export PATH
 #	WebSite: https://aapls.com
 #=================================================
 
-sh_ver="1.9.5"
+sh_ver="1.9.6"
 snell_v2_version="2.0.6"
 snell_v3_version="3.0.1"
 snell_v4_version="4.1.1"
 snell_v5_version="5.0.1"
-snell_v6_version="6.0.0b3"
+snell_v6_version="6.0.0b4"
 script_dir=$(cd "$(dirname "$0")"; pwd)
 script_path=$(echo -e "${script_dir}"|awk -F "$0" '{print $1}')
 snell_dir="/etc/snell/"
